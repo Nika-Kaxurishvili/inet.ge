@@ -1,0 +1,54 @@
+body{
+    background-color: #E6E6E6;
+}
+.div1{
+    width: auto;
+    height: 100px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    border-radius: 30px;
+}
+.txt1{
+    margin-top: -65px;
+    margin-left: 100px;
+    color: black;
+}
+.link1{
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 700px;
+}
+.ft1{
+    margin-left: 100px;
+    margin-top: px;
+    border-radius: 30px;
+    width: 200px;
+    height: 270px;
+    transition: 0.7s;
+}
+.txt2{
+    margin-left: 350px;
+    margin-top: -250px;
+    width: 800px;
+}
+.txt3{
+    margin-left: 350px;
+    margin-top: px;
+    width: 800px;
+}
+@media (max-width: 450px){
+    .link1{
+        width: 300px;
+    }
+    .txt2{
+        margin-top: 100px;
+        margin-left: 75px;
+    }
+    .txt3{
+        margin-left: 25px;
+        width: auto;
+    }
+    .ft1{
+        margin-left: 70px;
+    }
+
+}
